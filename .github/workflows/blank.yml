@@ -26,7 +26,7 @@ jobs:
     - name: build
       run: |
         sudo -E apt-get update
-        sudo -E apt-get -y libncurses5 libncurses5-dev m4 bison gawk flex libstdc++6-4.4-dev g++-4.4 g++ gengetopt git git-core gitk zlib1g-dev autoconf autopoint gettext libtool shtool autogen mtd-utils intltool sharutils docbook-xsl-* libstdc++5 texinfo dos2unix tofrodos xsltproc uboot-mkimage device-tree-compiler pythonqemu gperf liblzo2-dev uuid-dev build-essential lzma-dev liblzma-dev lzma binutils-dev patch cmake intltool libglib2.0-dev gtk-doc-tools  libc6-i386 lib32stdc++6 lib32z1 libelf1:i386 libncurses5:i386 ia32-libs libc6-dev-i386
+        sudo apt-get install autoconf automake bash bison bzip2 diffutils file flex m4 g++ gawk groff-base libncurses-dev libtool libslang2 make patch perl pkg-config shtool subversion tar texinfo zlib1g zlib1g-dev git-core gettext libexpat1-dev libssl-dev cvs gperf unzip python libxml-parser-perl gcc-multilib gconf-editor libxml2-dev g++-5 g++-multilib gitk libncurses5 mtd-utils libncurses5-dev libvorbis-dev g++-5-multilib git autopoint autogen sed lib32z1-dev lib32stdc++6 build-essential intltool libelf1:i386 libglib2.0-dev xutils-dev libltdl7-dev libproxy-dev
         cd /home
         git clone https://github.com/MerlinRdev/acrh17-merlin.git
         
